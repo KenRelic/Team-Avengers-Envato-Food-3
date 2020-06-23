@@ -1,0 +1,74 @@
+html{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+body .container{
+  padding: 5px !important;
+
+}
+
+#nav-bar{
+  transition: all 0.5s;
+}
+.navbar-nav{
+  align-items: center;
+}
+
+.navbar-brand{
+  color: #fff !important;
+  font-weight: 500;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  
+}
+
+.navbar-toggler-icon{
+  color: #fff !important;
+}
+
+.btn-primary{
+  background-color: #FFA803;
+  border-color: #FFA803;
+  border-radius: 500px;
+  padding: 0.5em 1.2em;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+#login-btn:hover{
+  background-color: #ffffff !important;
+  border-color: #FFA803 !important;
+  box-shadow: 0 10px 10px #2e1e0058 !important;
+  color: #FFA803 !important;
+}
+#login-btn{
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  background-color: transparent;
+}
+
+
+.masthead {
+    height: 50vh;
+    min-height: 500px;
+    background-image:linear-gradient(200deg, rgba(0, 0, 0, 0.836),white), url('../images/home-page-banner-img.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+#banner .px-md-4{
+  margin: 0 4em !important;
+}
+  .form-control::placeholder{
+    color:#b7b7b7;
+  }
+/* 
+font-family: 'Poppins', sans-serif;*/
